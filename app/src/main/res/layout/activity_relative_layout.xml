@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".relativeLayout">
+
+    <TextView
+        android:id="@+id/tv_kiri_atas"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_70dp"
+        android:background="#FFEB3B"/>
+    <TextView
+        android:id="@+id/tv_kiri_atas2"
+        android:layout_width="@dimen/_220dp"
+        android:layout_height="@dimen/_70dp"
+        android:layout_below="@id/tv_kiri_atas"
+        android:background="#3BFF3E"/>
+    <TextView
+        android:id="@+id/tv_kanan_atas"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FFEB3B"/>
+    <TextView
+        android:id="@+id/tv_kanan_atas2"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_kiri_atas2"
+        android:layout_toEndOf="@id/tv_kiri_atas2"
+        android:background="#FFEB3B"/>
+    <TextView
+        android:id="@+id/tv_kiri_atas3"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_70dp"
+        android:layout_marginTop="@dimen/_15dp"
+        android:background="#FF9800"
+        android:layout_below="@id/tv_kanan_atas2"/>
+    <TextView
+        android:id="@+id/tv_kanan_atas3"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/_20dp"
+        android:layout_centerHorizontal="true"
+        android:background="#FFEB3B"
+        android:layout_below="@id/tv_kanan_atas2"/>
+    <TextView
+        android:id="@+id/tvgreen_kanan_atas3"
+        android:layout_width="@dimen/_220dp"
+        android:layout_height="@dimen/_70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:background="#4FFF3B"
+        android:layout_below="@id/tv_kanan_atas3"/>
+    <TextView
+        android:id="@+id/tvyello_kiri_atas"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_70dp"
+        android:layout_below="@id/tv_kiri_atas3"
+        android:layout_marginLeft="@dimen/_38"
+        android:background="#FFEB3B"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/tvyello2_kiri_atas"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_70dp"
+        android:layout_below="@id/tvyello_kiri_atas"
+        android:background="#FFEB3B"/>
+    <TextView
+        android:id="@+id/tvblue_kanan_atas3"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:background="#1841A8"
+        android:layout_below="@id/tvgreen_kanan_atas3"/>
+    <TextView
+    android:id="@+id/tv_center"
+    android:layout_width="@dimen/_150dp"
+    android:layout_height="@dimen/_70dp"
+    android:layout_centerInParent="true"
+    android:layout_below="@id/tvblue_kanan_atas3"
+    android:background="#DA1028"/>
+    android:background="#FFEB3B"/>
+    <TextView
+        android:id="@+id/tv_kiri_atas_orens"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_70dp"
+        android:background="#FF9800"
+        android:layout_below="@id/tv_center"/>
+    <TextView
+        android:id="@+id/tv_kanan_atas_yello"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FFEB3B"
+        android:layout_below="@id/tv_center"
+        android:layout_marginTop="@dimen/_10dp"/>
+    <TextView
+        android:id="@+id/tv_center2"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_70dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/tv_kanan_atas_yello"
+        android:background="#FF9800"/>
+    <TextView
+        android:id="@+id/tv_kiri_atas_orens2"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_80dp"
+        android:background="#FF9800"
+        android:layout_below="@id/tv_center2" />
+    <TextView
+        android:id="@+id/tv_kanan_atas_yello2"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FF9800"
+        android:layout_below="@id/tv_center2"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
